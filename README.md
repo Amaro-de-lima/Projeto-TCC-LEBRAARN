@@ -1,2 +1,2 @@
 # Projeto-TCC-LEBRAARN
-Este projeto refere-se ao Trabalho de Conclusão de Curso (TCC), desenvolvido como requisito obrigatório para a conclusão do curso técnico em Informática no Instituto Federal do Rio Grande do Norte (IFRN), Campus Ipanguaçu.
+Este projeto aborda o desenvolvimento de um website voltado para o aprendizado da Língua Brasileira de Sinais (Libras), por meio de vídeos curtos demonstrando gestos e sinais. A plataforma permite que o usuário pesquise termos específicos e, a partir dessa pesquisa, visualize vídeos correspondentes aos sinais em Libras, facilitando o processo de aprendizado e a prática da gesticulação. O objetivo do website é promover a inclusão e tornar o ensino de Libras mais acessível, dinâmico e intuitivo.
