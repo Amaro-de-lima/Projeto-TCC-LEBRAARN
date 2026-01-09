@@ -1,0 +1,196 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f9f9f9;
+color: #333;
+line-height: 1.6;
+}
+
+
+h1, h2, h3 {
+color: #222;
+}
+
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/* ======================
+Cabeçalho
+====================== */
+header {
+background: #4CAF50;
+color: white;
+padding: 2rem 1rem;
+text-align: center;
+}
+
+
+header h1 {
+font-size: 2rem;
+margin-bottom: 0.5rem;
+}
+
+
+header p {
+font-size: 1.1rem;
+}
+
+/*
+Seções de Conteúdo
+======================*/
+
+section.Normal {
+padding: 2rem;
+text-align: center;
+background: white;
+margin: 1rem;
+border-radius: 12px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+section.Normal h2 {
+margin-bottom: 0.8rem;
+color: #4CAF50;
+}
+
+
+.botao {
+display: inline-block;
+margin-top: 1rem;
+padding: 0.8rem 1.5rem;
+background: #4CAF50;
+color: white;
+border-radius: 8px;
+font-weight: bold;
+transition:  0.3s;
+}
+
+
+.botao:hover {
+background: #45a049;
+}
+
+/* ======================
+Biblioteca de Sinais
+====================== */
+main {
+padding: 2rem;
+}
+
+
+.Input-group {
+margin: 1rem auto;
+max-width: 400px;
+}
+
+
+.Input-group input {
+width: 100%;
+padding: 0.7rem;
+border: 2px solid #ccc;
+border-radius: 8px;
+font-size: 1rem;
+}
+
+
+.categorias {
+text-align: center;
+margin: 1rem 0;
+}
+
+.categorias button {
+margin: 0.3rem;
+padding: 0.6rem 1rem;
+border: none;
+background: #4CAF50;
+color: white;
+border-radius: 6px;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+
+.categorias button:hover {
+background: #45a049;
+}
+
+
+.Items {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 1.5rem;
+margin-top: 2rem;
+}
+
+
+.Item {
+background: white;
+border-radius: 12px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+padding: 1rem;
+text-align: center;
+transition: transform 0.3s;
+}
+
+.Item:hover {
+transform: translateY(-5px);
+}
+
+
+.item-imagem img {
+max-width: 100%;
+border-radius: 10px;
+}
+
+
+.Item-content h3 {
+margin-top: 0.8rem;
+color: #333;
+}
+
+
+.Item-content p {
+font-size: 0.9rem;
+color: #555;
+}
+
+/* ======================
+Rodapé
+====================== */
+
+footer {
+background: #333;
+color: white;
+text-align: center;
+padding: 2rem 1rem;
+margin-top: 2rem;
+}
+
+
+footer h2 {
+margin-bottom: 1rem;
+color: #fff;
+}
+
+
+footer nav img {
+margin: 0.5rem;
+transition: transform 0.3s;
+}
+
+
+footer nav img:hover {
+transform: scale(1.1);
+}

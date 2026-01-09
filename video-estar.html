@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinal: Estar</title>
+    <style>
+        :root { --cor: #4CAF50; --escuro: #333; --bg: #f9f9f9; }
+        * { box-sizing: border-box; }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: var(--bg);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: var(--cor);
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 1rem;
+        }
+        header h1 { margin: 0; font-size: 2rem; }
+        header p { margin-top: .5rem; font-size: 1.05rem; }
+        main.conteudo {
+            flex: 1;
+            padding: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1.25rem;
+        }
+        .video-container { max-width: 860px; width: 100%; }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,.2);
+        }
+        .explicacao {
+            max-width: 760px;
+            background: #fff;
+            padding: 1.25rem 1.25rem 1rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,.08);
+            text-align: left;
+        }
+        .explicacao h2 { color: var(--cor); margin: 0 0 .5rem; }
+        .acessibilidade {
+            font-size: .9rem;
+            color: #555;
+            margin-top: .5rem;
+        }
+        .navegacao { display: flex; gap: .75rem; flex-wrap: wrap; justify-content: center; }
+        .botao {
+            display: inline-block;
+            padding: .8rem 1.2rem;
+            background: var(--cor);
+            color: #fff;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: transform .15s ease, background .2s ease;
+        }
+        .botao:hover { background: #45a049; transform: translateY(-1px); }
+        footer {
+            background: var(--escuro);
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            font-size: .9rem;
+        }
+        a:focus, button:focus { outline: 3px solid #222; outline-offset: 2px; }
+        @media (max-width: 480px) { header h1 { font-size: 1.6rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sinal: Estar</h1>
+        <p>Assista ao vídeo abaixo para aprender o sinal de Estar em Libras.</p>
+    </header>
+    <main class="conteudo">
+        <div class="video-container">
+            <video src="Videos-libras/estar.mp4" controls autoplay playsinline></video>
+        </div>
+        <section class="explicacao">
+            <h2>Como usar</h2>
+            <p>Indica estado ou condição temporária, como sentimentos ou localização.</p>
+            <p class="acessibilidade"><strong>Dica:</strong> Ative as legendas do vídeo se disponíveis e use Tab/Enter para navegar pelos botões.</p>
+        </section>
+        <nav class="navegacao">
+            <a href="index.html" class="botao">⮜ Voltar para Biblioteca</a>
+            <a href="video-ele.html" class="botao">⮜ Ele</a>
+            <a href="video-eu.html" class="botao">Eu ⮞</a>
+        </nav>
+    </main>
+    <footer>
+        <p>&copy; 2025 Duolibras - Plataforma de Inclusão em Libras</p>
+    </footer>
+</body>
+</html>
